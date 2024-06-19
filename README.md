@@ -29,4 +29,4 @@ select dbo.XxHash64(@vb);
 
 --6545093196672709231 is a52b286a3e7f4d91, which matches the output from [Generate a xxh hash value](https://www.coderstool.com/xxh-hash-generator)
 
-8. Declare (more) victory!
+7. Declare (more) victory!
