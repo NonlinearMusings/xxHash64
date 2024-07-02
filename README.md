@@ -1,8 +1,8 @@
 [![CI](https://github.com/Crauzer/XXHash3.NET/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Crauzer/XXHash3.NET/actions/workflows/ci.yml) ![Nuget](https://img.shields.io/nuget/dt/XXHash3.NET)
 
-# SqlXXHash3NET
+# xxHash64
 
-A SQLCLR SAFE implementation of XXHash3.NET, which returns a xxHash64 has a SqlInt64, that can be deployed to SQL Server or Azure SQL Managed Instance.
+A SQLCLR SAFE implementation of XXHash3.NET's xxHash64 code returning a SqlInt64, that can be deployed to SQL Server or Azure SQL Managed Instance.
 
 Note that only SAFE assemblies are supported on Linux and as such only [Supported Libraries](https://learn.microsoft.com/en-us/sql/relational-databases/clr-integration/database-objects/supported-net-framework-libraries?view=sql-server-ver16#supported-libraries) may be referenced in the assembly. XXHash3.NET's code base has been modififed to meet this requirement.
 
